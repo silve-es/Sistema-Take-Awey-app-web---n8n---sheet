@@ -1,0 +1,28 @@
+{
+	"info": {
+		"name": "ERP POS Simulation Payload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send Sales Batch Payload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"venta_id\": \"V-001\",\n    \"producto\": \"Pizza Calabresa Grande\",\n    \"cantidad\": 2,\n    \"monto\": 18400\n  }\n]"
+				},
+				"url": {
+					"raw": "YOUR_N8N_WEBHOOK_URL",
+					"host": ["YOUR_N8N_WEBHOOK_URL"]
+				}
+			}
+		}
+	]
+}

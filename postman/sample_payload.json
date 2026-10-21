@@ -1,0 +1,20 @@
+[
+  {
+    "venta_id": "V-001",
+    "producto": "Pizza Calabresa Grande",
+    "cantidad": 2,
+    "monto": 18400
+  },
+  {
+    "venta_id": "V-002",
+    "producto": "Empanada de Carne",
+    "cantidad": 6,
+    "monto": 4800
+  },
+  {
+    "venta_id": "V-003",
+    "producto": "Cerveza LAGER 1L",
+    "cantidad": 2,
+    "monto": 5000
+  }
+]
