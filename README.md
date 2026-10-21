@@ -10,7 +10,7 @@ Este proyecto implementa un flujo de trabajo asincrónico event-driven que permi
 
 ```text
 ┌──────────────────────────────┐
-│   Simulador POS / Postman    │
+│         app web POS          │
 └──────────────┬───────────────┘
                │ (HTTP POST / Payload JSON)
                ▼
@@ -36,7 +36,7 @@ estructura del repositorio
 └── README.md                                 # Documentación técnica del proyecto
 
 🛠️ Tecnologías Utilizadas
-Simulador POS / Cliente API: Postman.
+app web.
 
 Motor de Automatización & Middleware: n8n.
 
@@ -45,7 +45,7 @@ Base de Datos Operativa: Google Sheets API (ERP_Simulado_DB).
 Formato de Intercambio: JSON / HTTP REST (POST).
 
 🔄 Flujo de Datos
-Emisión del Ticket: Postman envía una petición POST al endpoint Webhook de n8n simulando un ticket de venta gastronómico/retail.
+Emisión del Ticket: app web envía una petición POST al endpoint Webhook de n8n simulando un ticket de venta gastronómico/retail.
 
 Recepción y Validación: n8n escucha la solicitud, valida la estructura del payload JSON y mapea los parámetros (producto, cantidad, monto, sucursal, timestamp).
 
